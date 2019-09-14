@@ -1,4 +1,6 @@
-window.onload = function() {
+const Snap = require(`imports-loader?this=>window,fix=>module.exports=0!snapsvg/dist/snap.svg.js`);
+
+window.addEventListener('load', function() {
     let t = document.getElementById('antennaTop');
     let w = document.getElementById('wire');
     let s = new Snap(t);
@@ -91,4 +93,4 @@ window.onload = function() {
         }, delay);
     }
     wave();
-}
+});
