@@ -14,3 +14,8 @@ steps:
     npm install
     npm run build
   displayName: 'npm install, run build'
+- script: |
+    git config user.email "neilpturley@gmail.com" 
+    git config user.name "Neil Turley"
+    npm run deploy -- -r https://$(github_pat)@github.com/nturley/tomu-animation.git
+  displayName: 'deploy to github pages'
