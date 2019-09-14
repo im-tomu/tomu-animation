@@ -1,4 +1,5 @@
 # Tomu Animation
+[![Build Status](https://dev.azure.com/neilpturley/build-tomu-animation/_apis/build/status/nturley.tomu-animation?branchName=master)](https://dev.azure.com/neilpturley/build-tomu-animation/_build/latest?definitionId=2&branchName=master)
 
 The goal of this exercise is to add animations to the tomu logo.
 
